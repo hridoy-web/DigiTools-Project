@@ -4,6 +4,7 @@ import Banner from './components/Banner';
 import Stats from './components/Stats';
 import Steps from './components/Steps';
 import PricingCard from './components/PricingCard';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Stats />
         <Steps />
         <PricingCard />
+        <Footer />
       </main>
 
 

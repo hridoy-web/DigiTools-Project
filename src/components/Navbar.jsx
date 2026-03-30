@@ -13,7 +13,7 @@ const Navbar = () => {
 
             <div className='flex justify-between items-center w-11/12 mx-auto py-4 z-50'>
 
-                <h2 className=' text-2xl md:text-3xl font-bold text-[#4F39F6]'>DigiTools</h2>
+                <h2 className=' text-2xl md:text-3xl font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>DigiTools</h2>
 
                 {/* dekstop menu small device  hidden*/}
                 <div className='hidden md:flex text-center gap-8'>
