@@ -9,9 +9,9 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className='border-b border-gray-300 shadow-md'>
+        <nav className=' bg-white border-b border-gray-300 shadow-md'>
 
-            <div className='flex justify-between items-center w-11/12 mx-auto py-4'>
+            <div className='flex justify-between items-center w-11/12 mx-auto py-4 z-50'>
 
                 <h2 className=' text-2xl md:text-3xl font-bold text-[#4F39F6]'>DigiTools</h2>
 
