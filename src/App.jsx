@@ -8,6 +8,14 @@ import Steps from './components/Steps';
 import PricingCard from './components/PricingCard';
 import Footer from './components/Footer';
 
+
+const productData = async () =>{
+  const res = await fetch('/data.json')
+  return res.json();
+}
+
+const productPromise = productData()
+
 const App = () => {
   return (
     <>
@@ -18,7 +26,7 @@ const App = () => {
         <Stats />
 
         <Products />
-        <ProductCard/>
+        <ProductCard productPromise={productPromise} />
 
         <Steps />
         <PricingCard />
