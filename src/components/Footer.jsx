@@ -12,8 +12,8 @@ const Footer = () => {
             <div className='w-11/12 mx-auto grid grid-cols-2 md:grid-cols-5 gap-8 md:justify-items-center items-start'>
 
                 <div>
-                    <h2 className='text-2xl font-extrabold md:text-3xl mb-3  w-fit bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>DigiTools</h2>
-                    <p className='text-sm text-gray-400 whitespace-normal break-word w-fit'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
+                    <h2 className='text-2xl font-extrabold md:text-3xl mb-3  w-fit bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent cursor-pointer'>DigiTools</h2>
+                    <p className='text-sm text-gray-300 whitespace-normal break-word w-fit'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
                 </div>
 
                 <div className='flex flex-col gap-1 w-fit'>

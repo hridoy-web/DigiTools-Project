@@ -3,18 +3,18 @@ import { IoMdCheckmark } from 'react-icons/io';
 
 const Card = ({ product, addToCartHandle }) => {
 
-const [isBuy, setIsBuy ] = useState(false)
+    const [isBuy, setIsBuy] = useState(false)
 
-const [disbled, setDisbled] = useState(false)
+    const [disbled, setDisbled] = useState(false)
 
-const buyBtnHandler = () =>{
-    setIsBuy(true)
-    addToCartHandle(product)
-    setDisbled(true)
-}
+    const buyBtnHandler = () => {
+        setIsBuy(true)
+        addToCartHandle(product)
+        setDisbled(true)
+    }
 
     return (
-        <div className="bg-gray-100 p-6 rounded-3xl border border-gray-200 shadow-md transition-all hover:scale-105 duration-500">
+        <div className="bg-gray-100 p-6 rounded-3xl border border-gray-200 shadow-md transition-all hover:scale-105 duration-500 cursor-pointer">
 
             {/* card first icon and btn controller */}
             <div className='flex justify-between items-center mb-3'>
@@ -55,7 +55,7 @@ const buyBtnHandler = () =>{
 
             {/* Btn */}
             <div className='mt-5'>
-                <button disabled={disbled} onClick={buyBtnHandler} className="btn w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full md:hover:scale-105 duration-500 transition-all  ease-in-out " >{isBuy ? '✔ Added to Cart' : 'Buy Now'}</button>
+                <button disabled={disbled} onClick={buyBtnHandler} className={`btn w-full  text-white rounded-full md:hover:scale-105 duration-500 transition-all  ease-in-out ${isBuy ? 'bg-green-500' : 'bg-linear-to-r from-[#4F39F6] to-[#9514FA] border-none'} `}>{isBuy ? '✔ Added to Cart' : 'Buy Now'}</button>
             </div>
 
 

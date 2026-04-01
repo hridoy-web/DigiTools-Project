@@ -2,32 +2,10 @@ import React, { useState } from 'react';
 import Card from './Card';
 import Cart from '../Cart/Cart';
 import ProductCard from './ProductCard';
-import { toast } from 'react-toastify';
 
-const Products = ({ productPromise }) => {
+const Products = ({ productPromise, addToCartHandle, handleDeleteCart, cart, handleCart }) => {
 
     const [selectedBtn, setSelectedBtn] = useState('Products')
-
-    const [cart, setCart] = useState([])
-
-    const addToCartHandle = (addProduct) => {
-
-        const clone = cart.find(value => value.id === addProduct.id)
-
-        if (!clone) {
-            const newCart = [...cart, addProduct]
-            setCart(newCart)
-            toast.success(`${addProduct.name} added to cart`, );
-        } else{
-            toast.warn('Already added this product')
-        }    
-    }
-
-const handleDeleteCart = (id) => {
-    const removeCart = cart.filter(item => item.id !== id);
-    setCart(removeCart)
-    toast.warn(`product removed from cart`)
-}
 
     return (
         <div className='bg-white w-full mb-10 md:mb-0 md:py-10'>
@@ -53,7 +31,7 @@ const handleDeleteCart = (id) => {
             </div>
             <div className='mt-10'>
                 {
-                    selectedBtn === 'Products' ? <ProductCard productPromise={productPromise} addToCartHandle={addToCartHandle} /> : <Cart cart={cart} handleDeleteCart={handleDeleteCart} />
+                    selectedBtn === 'Products' ? <ProductCard productPromise={productPromise} addToCartHandle={addToCartHandle} /> : <Cart cart={cart} handleDeleteCart={handleDeleteCart} handleCart={handleCart} setSelectedBtn={setSelectedBtn} />
                 }
             </div>
         </div>

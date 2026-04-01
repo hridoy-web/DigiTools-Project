@@ -18,7 +18,7 @@ const Steps = () => {
                 <div className=' flex flex-col md:flex-row justify-center items-center gap-5 md:gap-7 mt-8'>
 
                     {/* Card---- 1 */}
-                    <div className='relative p-10 w-80 h-72 bg-neutral-50 flex flex-col gap-4 items-center text-center rounded-3xl  transition-all md:hover:scale-105 duration-500'  >
+                    <div className='relative p-10 w-80 h-72 bg-neutral-50 flex flex-col gap-4 items-center text-center rounded-3xl  transition-all md:hover:scale-105 duration-500 cursor-pointer'  >
 
                         <div className="absolute top-5 right-5 w-8 h-8 bg-[#6D28D9] rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg ">
                             01
@@ -36,7 +36,7 @@ const Steps = () => {
                     </div>
 
                     {/* Card---- 2 */}
-                    <div className='relative p-10 w-80 h-72 bg-neutral-50 flex flex-col items-center text-center gap-4 rounded-3xl transition-all md:hover:scale-105 duration-500' >
+                    <div className='relative p-10 w-80 h-72 bg-neutral-50 flex flex-col items-center text-center gap-4 rounded-3xl transition-all md:hover:scale-105 duration-500  cursor-pointer' >
 
                         <div className="absolute top-5 right-5 w-8 h-8 bg-[#6D28D9] rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg ">
                             02
@@ -54,7 +54,7 @@ const Steps = () => {
                     </div>
 
                     {/* Card---- 3 */}
-                    <div className='relative p-10 w-80 h-72 bg-neutral-50 flex flex-col items-center text-center gap-4 rounded-3xl transition-all md:hover:scale-105 duration-500 '>
+                    <div className='relative p-10 w-80 h-72 bg-neutral-50 flex flex-col items-center text-center gap-4 rounded-3xl transition-all md:hover:scale-105 duration-500  cursor-pointer'>
 
                         <div className="absolute top-5 right-5 w-8 h-8 bg-[#6D28D9] rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg ">
                             03

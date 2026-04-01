@@ -3,7 +3,7 @@ import React from 'react';
 import { use } from 'react';
 import Card from './Card';
 
-const ProductCard = ({ productPromise, addToCartHandle }) => {
+const ProductCard = ({ productPromise, addToCartHandle,  }) => {
 
     const productList = use(productPromise)
 

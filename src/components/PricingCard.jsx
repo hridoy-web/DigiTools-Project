@@ -4,7 +4,7 @@ import { IoMdCheckmark } from 'react-icons/io';
 const PricingCard = () => {
     return (
         // main container
-        <div className='w-full h-auto py-20  bg-white '>
+        <div className='w-full h-auto py-16  bg-white '>
 
             {/* layout container */}
             <div className='w-11/12 mx-auto  justify-center items-center text-center'>
@@ -21,7 +21,7 @@ const PricingCard = () => {
 
 
                     {/* card--- 1 */}
-                    <div className="w-80 h-auto bg-primary-content/30 p-6 rounded-3xl border border-gray-200 shadow-xl transition-all hover:scale-105 duration-500">
+                    <div className="w-80 h-auto bg-primary-content/30 p-6 rounded-3xl border border-gray-200 shadow-xl transition-all hover:scale-105 duration-500  cursor-pointer">
 
                         <h3 className='text-left font-extrabold text-xl mb-1'>Starter</h3>
                         <p className='text-left text-gray-600 font-medium'>Perfect for getting started</p>
@@ -54,14 +54,14 @@ const PricingCard = () => {
                         {/* Btn */}
 
                         <div className='mt-16'>
-                            <button className="btn w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full md:hover:scale-105 duration-500 transition-all  ease-in-out " >Get Started Free</button>
+                            <button className="btn w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full md:hover:scale-105 duration-500 transition-all font-extrabold ease-in-out " >Get Started Free</button>
                         </div>
 
                     </div>
 
 
                     {/* card--- 2 */}
-                    <div className="relative w-80 h-auto bg-primary p-6 rounded-3xl border border-gray-200 shadow-xl transition-all hover:scale-105 duration-500">
+                    <div className="relative w-80 h-auto bg-linear-to-r from-[#4F39F6] to-[#9514FA] p-6 rounded-3xl border border-gray-200 shadow-xl transition-all hover:scale-105 duration-500 cursor-pointer">
 
                         <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#FFD782] px-5 py-1.5 rounded-full shadow-md">
 
@@ -109,7 +109,7 @@ const PricingCard = () => {
                         {/* Btn */}
 
                         <div className='mt-5'>
-                            <button className="btn w-full  bg-white rounded-full md:hover:scale-105 duration-500 transition-all  ease-in-out " ><span className=" font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+                            <button className="btn w-full  bg-white rounded-full md:hover:scale-105 duration-500 transition-all  ease-in-out " ><span className=" font-extrabold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
                                 Start Pro Trial
                             </span></button>
                         </div>
@@ -118,7 +118,7 @@ const PricingCard = () => {
 
 
                     {/* card--- 3 */}
-                    <div className="w-80 h-auto bg-primary-content/30 p-6 rounded-3xl border border-gray-200 shadow-xl transition-all hover:scale-105 duration-500">
+                    <div className="w-80 h-auto bg-primary-content/30 p-6 rounded-3xl border border-gray-200 shadow-xl transition-all hover:scale-105 duration-500 cursor-pointer">
 
                         <h3 className='text-left font-extrabold text-xl mb-1'>Enterprise</h3>
                         <p className='text-left text-gray-600 font-medium'>For teams and businesses</p>
@@ -161,7 +161,7 @@ const PricingCard = () => {
                         {/* Btn */}
 
                         <div className='mt-5'>
-                            <button className="btn w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full md:hover:scale-105 duration-500 transition-all  ease-in-out ">Contact Sales</button>
+                            <button className="btn w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full md:hover:scale-105 duration-500 transition-all font-extrabold ease-in-out ">Contact Sales</button>
                         </div>
 
                     </div>
