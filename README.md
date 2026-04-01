@@ -1,16 +1,19 @@
-# React + Vite
+A modern, high-performance Ai product Web page built with React and Tailwind CSS. This project focuses on a smooth user journey, from browsing dynamic product lists to a fully functional cart management system.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Dynamic State Toggling:** Switch between the Product Gallery and Shopping Cart instantly without any page reloads, providing a snappy, app-like experience.
+* **Smart Cart Logic:** Real-time synchronization between product cards and the Navbar count. Includes Add to Cart state persistence on buttons and a one-click Proceed to Checkout that clears the session.
+* **Interactive Feedback:** Integrated React-Toastify for meaningful, non-intrusive alerts when adding, removing, or checking out items.
+* **Responsive & Polished UI:** Crafted with a mobile-first approach using DaisyUI. Features a sticky glassmorphism navbar and custom-themed gradient components.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built With
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Core:** React.js (Hooks & Suspense)
+- **Styling:** Tailwind CSS & DaisyUI
+- **Data Handling:** Custom JSON Fetching
+- **Notifications:** React-Toastify
+- **Icons:** React Icons
