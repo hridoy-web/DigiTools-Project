@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality blogs, emails, and marketing copy using advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "icon": "https://i.ibb.co.com/tTfWYV9n/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media and presentations.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license"
+    ],
+    "icon": "https://i.ibb.co.com/fzbykF7M/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos and videos.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution"
+    ],
+    "icon": "https://i.ibb.co.com/Jj2rjpsk/external-assets-factory-flaticons-lineal-color-flat-icons-2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and workflows easily.",
+    "price": 79,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "50+ automations",
+      "API access",
+      "Custom workflows"
+    ],
+    "icon": "https://i.ibb.co.com/szyJ1Sm/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes that stand out.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "https://i.ibb.co.com/JRS0nb00/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Create engaging content for all social platforms.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": [
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard"
+    ],
+    "icon": "https://i.ibb.co.com/Nn6nC2W2/social-media.png"
+  },
+  {
+    "id": 7,
+    "name": "Video Editing Suite",
+    "description": "Edit videos with advanced tools and effects.",
+    "price": 59,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "4K support",
+      "Advanced effects",
+      "Fast rendering"
+    ],
+    "icon": "https://i.ibb.co.com/ymXPsj6v/png-transparent-movavi-video-editor-video-editing-software-film-editing-software-cracking-others-thu.png"
+  },
+  {
+    "id": 8,
+    "name": "Website Builder Kit",
+    "description": "Build responsive websites without coding.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Drag & drop builder",
+      "SEO optimized",
+      "Free hosting"
+    ],
+    "icon": "https://i.ibb.co.com/F4RzpfxD/10838347.png"
+  },
+  {
+    "id": 9,
+    "name": "Email Marketing Pro",
+    "description": "Send campaigns and track performance easily.",
+    "price": 35,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": [
+      "Unlimited campaigns",
+      "Analytics reports",
+      "Automation tools"
+    ],
+    "icon": "https://i.ibb.co.com/dJXRL85t/png-round-email-red-icon-symbol-701751695032778p8dchvjdv5.png"
+  }
+]
